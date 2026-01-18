@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Кофейня CoffeeTime</title>
+        <link rel="icon" href="Pictures/CTL3.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="snow-layer" aria-hidden="true"></div>
+        <header class="title_bar">
+            <div class="logo">
+                <img class="logo1" src="Pictures/CoffeeTimeLogo1.png" alt="Logo">
+                <nav class="nav">
+                    <a href="main.html">Главная</a>
+                    <a href="About_Us.html">О нас</a>
+                    <a href="Contacts.html">Контакты</a>
+                    <a href="menu.html">Меню</a>
+                </nav>
+            </div>
+            <div class="profile" onclick="window.location.href='profile.html'">
+                <div>
+                    <img src="Pictures/ava/ava1.jpg" alt="Z">
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main_it">
+                <img class="main_img" src="Pictures/Coffetime.png">
+                <div class="zatemnenie"></div>
+                <div class="main_text">
+                    <h1>CoffeeTime</h1>
+                    <p>Который час? Время пить кофе.</p>
+                </div>
+            </div>
+            <div class="for_ny">
+                <img class="main_img" src="Pictures/CoffeeNewYear.jpg" alt="Background for new year">
+                <div class="blocknewyear">
+                    <h1>Ёлка - дома, а волшебство - в вашем кофе</h1>
+                    <pre>Пока вы украшаете дом, мы создали для вас особое новогоднее меню. 
+Наше новогоднее меню будет содержать  ваши любимые напитки с ароматами мандаринов, 
+сладкой карамели и активированным углем. Приходите за порцией вдохновения, 
+тепла и той самой магии, которая скрывается в паре с идеальным кофе. 
+Ваш праздник начинается здесь.
+                    </pre>
+                    <button id="toggle-snow">❄️ Выключить снег</button>
+                </div>
+            </div>
+            <div>
+                <p class="popular_products">Популярные авторские наитки</p>
+                <div class="drinks-grid">
+                    
+        <article class="drink-card">
+            <img class="drink-image" src="Pictures/Drinks/pos1.jpg" onerror="this.src='Pictures/Drinks/pos1.jpg'">
+            <div class="drink-content">
+                <h2 class="drink-title">Сибирский детокс</h2>
+                <p class="drink-description">Облепиховый капучино на овсяно-миндальном молоке с тонизирующим сиропом из куркумы и имбиря, посыпанный активированным углем для детокса.</p>
+                <div class="butandprice"><button class="drink-button">Подробнее</button></div>
+            </div>
+        </article>
+        
+        <article class="drink-card">
+            <img class="drink-image" src="Pictures/Drinks/pos2.jpg" onerror="this.src='Pictures/Drinks/pos1.jpg'">
+            <div class="drink-content">
+                <h2 class="drink-title">Белка Шрёдингера</h2>
+                <p class="drink-description">Фисташковый раф с кедровым сиропом и кокосовыми сливками, карамелизированный кристаллами гималайской соли.</p>
+                <div class="butandprice"><button class="drink-button">Подробнее</button></div>
+            </div>
+        </article>
+        
+        <article class="drink-card">
+            <img class="drink-image" src="Pictures/Drinks/pos3.jpg" onerror="this.src='Pictures/Drinks/pos1.jpg'">
+            <div class="drink-content">
+                <h2 class="drink-title">Омраченный княже</h2>
+                <p class="drink-description">Лавандовый айс-эспрессо-тоник с пряным сиропом из кардамона и розового перца на основе содовой с флердоранжем.</p>
+                <div class="butandprice"><button class="drink-button">Подробнее</button></div>
+            </div>
+        </article>
+        
+        <article class="drink-card">
+            <img class="drink-image" src="Pictures/Drinks/pos4.jpg" onerror="this.src='Pictures/Drinks/pos1.jpg'">
+            <div class="drink-content">
+                <h2 class="drink-title">Бархатный сезон</h2>
+                <p class="drink-description">Грушевый овсяной латте с сиропом из бузины и шафрана, взбитый до текстуры бархата.</p>
+                <div class="butandprice"><button class="drink-button">Подробнее</button></div>
+            </div>
+        </article>
+        
+        <article class="drink-card">
+            <img class="drink-image" src="Pictures/Drinks/pos5.jpg" onerror="this.src='Pictures/Drinks/pos1.jpg'">
+            <div class="drink-content">
+                <h2 class="drink-title">Фиговый настрой</h2>
+                <p class="drink-description">Инжирный фильтр-кофе холодного заваривания с добавлением сиропа из рожкового дерева и щепоткой асафетиды для пищеварения.</p>
+                <div class="butandprice"><button class="drink-button">Подробнее</button></div>
+            </div>
+        </article>
+        
+        <article class="drink-card">
+            <img class="drink-image" src="Pictures/Drinks/pos6.jpg" onerror="this.src='Pictures/Drinks/pos1.jpg'">
+            <div class="drink-content">
+                <h2 class="drink-title">Пятница в понедельник</h2>
+                <p class="drink-description">Смородиновый айс-матча на основе кешью-молока с имбирно-лимонным кордиалом и эфирными маслами бергамота.</p>
+                <div class="butandprice"><button class="drink-button">Подробнее</button></div>
+            </div>
+        </article>
+        
+        <article class="drink-card">
+            <img class="drink-image" src="Pictures/Drinks/pos7.jpg" onerror="this.src='Pictures/Drinks/pos1.jpg'">
+            <div class="drink-content">
+                <h2 class="drink-title">Мак-Флай</h2>
+                <p class="drink-description">Мятно-шоколадный флэт уайт на фундучном молоке с сиропом из мака и чиа, украшенный лепестками сублимированной малины.</p>
+                <div class="butandprice"><button class="drink-button">Подробнее</button></div>
+            </div>
+        </article>
+        
+        <article class="drink-card">
+            <img class="drink-image" src="Pictures/Drinks/pos10.jpg" onerror="this.src='Pictures/Drinks/pos1.jpg'">
+            <div class="drink-content">
+                <h2 class="drink-title">Кодекс навигатора</h2>
+                <p class="drink-description">Мандариновый кортадо с сиропом из чая улун и пеной на кокосовых сливках, посыпанный цедрой и какао-нибсами.</p>
+                <div class="butandprice"><button class="drink-button">Подробнее</button></div>
+            </div>
+        </article>
+        
+        <article class="drink-card">
+            <img class="drink-image" src="Pictures/Drinks/pos11.jpg" onerror="this.src='Pictures/Drinks/pos1.jpg'">
+            <div class="drink-content">
+                <h2 class="drink-title">Проект "Баланс"</h2>
+                <p class="drink-description">Клюквенно-имбирный латте на миндально-кедровом молоке с сиропом из розового гибискуса и щепоткой сушёной полыни.</p>
+                <div class="butandprice"><button class="drink-button">Подробнее</button></div>
+            </div>
+        </article>
+        
+        <article class="drink-card">
+            <img class="drink-image" src="Pictures/Drinks/pos12.jpg" onerror="this.src='Pictures/Drinks/pos1.jpg'">
+            <div class="drink-content">
+                <h2 class="drink-title">Это точно кофе или это...</h2>
+                <p class="drink-description">Сливочный какао-масала на основе злакового молока с добавлением ягод годжи, кэробом и экстрактом баобаба для витаминного усиления.</p>
+                <div class="butandprice"><button class="drink-button">Подробнее</button></div>
+            </div>
+        </article>
+        
+        <article class="drink-card">
+            <img class="drink-image" src="Pictures/Drinks/pos13.jpg" onerror="this.src='Pictures/Drinks/pos1.jpg'">
+            <div class="drink-content">
+                <h2 class="drink-title">Тихий Ден</h2>
+                <p class="drink-description">Малиново-миндальный матча-раф на альтернативно банано-кокосовом молоке с сиропом от кашля тенатен.</p>
+                <div class="butandprice"><button class="drink-button">Подробнее</button></div>
+            </div>
+        </article>
+        
+        <article class="drink-card">
+            <img class="drink-image" src="Pictures/Drinks/pos14.jpg" onerror="this.src='Pictures/Drinks/pos1.jpg'">
+            <div class="drink-content">
+                <h2 class="drink-title">Вуото кон панна</h2>
+                <p class="drink-description">Простой доппио без добавления эспрессо, с добавлением обезжиренных не материальных сливок не молочного происхождения.</p>
+                <div class="butandprice"><button class="drink-button">Подробнее</button></div>
+            </div>
+        </article>
+
+
+        </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer_div"> <!--WIP-->
+                <div>
+                    <h1>Кратко о нас</h1>
+                    <p>Телефон: 8 800 555 35-35</p>
+                    <p>Часы работы: с 9 до 9</p> <!--Мы не работаем-->
+                    <p>test1</p>
+                </div>
+
+                <div class="our_socnet">
+                    <h1>Наши соцсети</h1>
+                    <div>
+                        <img src="" alt="1"> 
+                        <a href="">Telegram</a>
+                    </div>
+                    <div>
+                        <img src="" alt="2"> 
+                        <a href="">Test1</a>
+                    </div>
+                    <div>
+                        <img src="" alt="3"> 
+                        <a href="">Test2</a>
+                    </div>
+                </div>
+
+                <div>
+                    <h1>Юридическая информация</h1>
+                    <p>ООО. Тмыв денег</p>
+                    <p>© 2025 Артём Зайцев</p>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Пользовательское соглашение</a>
+                    <!--<p>Строительня компания: Секонд-Хенд Кирпич</p>--> <!--Кладём на совесть-->
+                </div>
+
+                <div>
+                  <h1>Инструменты</h1>
+                    <p>Создание картинок: Алиса AI</p>
+                    <p>Редактирование картинок: paint.net</p>
+                    <p>Редактор кода: VSCodium</p>
+                </div>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+    
+</html>
