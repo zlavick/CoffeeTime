@@ -2,5 +2,4 @@
 
 Добро пожаловать в кофейню CoffeeTime — место, где каждый глоток кофе превращается в момент наслаждения, а атмосфера уюта дарит чувство дома.
 
-###Ссылка на сайт
-https://zlavick.github.io/CoffeeTime/index.html
+[Ссылка на сайт](https://zlavick.github.io/CoffeeTime/index.html)
